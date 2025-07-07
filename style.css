@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    padding: 5px;
+
+
+
+}
+.img1{
+    display: inline-block;
+
+}
+img{
+    width:100%;
+}
+h3{
+    position:absolute;
+    top:5px;
+    background-color: black;
+    color: white;
+
+}
+.container1{
+    width:100%;
+    margin:auto;
+    padding-top: 500px;
+
+
+}
+.img2{
+    display:inline-block;
+}
+h2{
+    padding:10px;
+}
+button{
+    width:70%;
+}
+
