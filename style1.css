@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container1{
+    position:relative;
+
+
+}
+.para1{
+    position: absolute;
+    background-color: black;
+    color:white;
+    top: 0px;
+}
+.p3{
+    display:inline-block;
+    width:350px;
+    position: relative;
+    padding-left: 10px;
+
+}
+    
+img{
+    width:100%;
+}
+.image{
+    display:inline-block;
+    width:350px;
+    position: relative;
+    padding-left: 10px;
+
+}
+button{
+    width:100%;
+}
+.container2{
+    padding-top: 200px;
+}
