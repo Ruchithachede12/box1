@@ -1,116 +1,264 @@
 *{
-    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+
 }
-nav{
+.a1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: black;
     position: sticky;
-    top:0;
-    background-color: white;
-}
-.p1{
-    position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
+    top:0px;
+    padding: 5px;
+
 }
 a{
+    color:white;
     text-decoration: none;
     position: sticky;
-    top:0;
 }
-
-.a1,.a2{
-    display: inline-block;
-    font-size: large;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-.a2{
-    position: absolute;
-    right:0;
-    padding-right:20px;
-    
+html,body{
+    height: 100%;
 }
 .img1{
-    padding-top: 20px;
-    align-items: center;
-    justify-content: center;
-    
-  
-}
-.p1{
-    font-size: larger;
-    align-items: center;
-    justify-content: center;
+    height: 75%;
+    background-image: url(https://safirnews.in/wp-content/uploads/2023/12/la-vie-en-rose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
-b{
+
+.p1{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size:70px;
+      padding: 20px 20px;
+      border-radius: 10px;
+      color: rgb(227, 226, 224);
+      bottom: 20%;
+      text-align: center;
+    line-height: 100px;
+      
+}
+.p2{
+    color: white;
+    width: fit-content;
+    position: absolute;
+    top: 70%;
+    bottom:0%;
+    left:1%;
+    
+}
+
+.p2>p{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.p4{
+    color: white;
+    width: fit-content;
+    position: absolute;
+    top: 70%;
+    bottom:0%;
+    right:1%;
+
+}
+.p4>p{
+    padding: 10px;
+    color: white;
+
+}
+.h2{
+    position: center;
+    width: fit-content;
+    font-size: 30px;
+    padding:10px;
+}
+.h2>p{
+    background-color: black;
+    color: white;
+    padding:10px;
+}
+.text{
+    padding-left: 400px;
+    padding-right: 400px;
+
+    font-size: 20px;
+    line-height: 25px;
+}
+.text1{
+    padding-left:400px;
+    padding-right: 400px;
+    padding-top: 30px;
+    display: flex;
+    font-size: 20px;
+}
+.text1>p{
+    background-color: rgb(250, 239, 239);
+    width:fit-content;
+    color: black;
+    font-style: oblique;
+    border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: rgb(205, 192, 192);
+}
+.image2{
+    padding-left:400px;
+    padding-right: 400px;
+    
+}
+.image2>img{
+    width: fit-content;
+    width:100%;
+    height:45%;
+}
+.para{
+    padding-left:400px;
+    padding-right: 400px;
+    font-size: 20px;
+}
+.heading{
+    position: center;
+    width: fit-content;
+    font-size: 30px;
+    padding:10px;
+
+}
+.heading>p{
+    background-color: black;
+    color: white;
+    padding:10px;
+
+}
+.menu {
+   padding-left:400px;
+   padding-right: 400px;
+  
+  background: white;
+  
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+
+
+input[type="radio"] {
+  display: none;
+}
+
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+.tabs label {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  background: #eee;
+  cursor: pointer;
+}
+
+input#eat:checked ~ .tabs label[for="eat"],
+input#drink:checked ~ .tabs label[for="drink"] {
+  background: #555;
+  color: white;
+}
+
+.content {
+  display: none;
+  padding: 20px;
+}
+
+input#eat:checked ~ .eat-content,
+input#drink:checked ~ .drink-content {
+  display: block;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  margin: 0;
+}
+
+.item p {
+  margin: 5px 0 0;
+  color: #555;
+}
+.coffe{
+    padding-left:400px;
+   padding-right: 400px;
+}
+.coffe>img{
+    width:100%;
+    height: 350px;
+}
+.heading2>p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width:fit-content;
+    font-size: 20px;
+}
+.para4{
+    padding-left:400px;
+   padding-right: 400px;
+}
+.img4{
+    padding-left:400px;
+   padding-right: 400px;
+}
+.img4>img{
+    width: 700px;
+}
+.paragraph{
+    padding-left:400px;
+   padding-right: 400px;
+   font-size: 20px;
+}
+.paragraph>p>b{
     background-color: black;
     color: white;
 }
-.container1{
-    position:relative;
-
-
-}
-h3{
-    font-size: larger;
+.p5{
+    padding-left:400px;
+   padding-right: 400px;
+   font-size: 20px;
 
 }
-.p3{
-    display:inline-block;
-    width:350px;
-    position: relative;
-    padding-left: 10px;
-
+.reservation-form{
+    display: inline-block;
+    width: 100%;
 }
-    
-img{
+.reservation-form>input{
     width:100%;
+    padding:10px;
 }
-.para1{
-    position: absolute;
-    background-color: black;
-    color:white;
-    top: 0px;
-}
-.container2{
-    position: relative;
-    padding-top: 20px;
-}
-.image{
-    display:inline-block;
-    width:350px;
-    position: relative;
-    padding-left: 10px;
+.reservation-form>textarea{
+    width:100%;
+    padding:10px;
 
 }
 button{
-    width:100%;
-}
-form{
-    padding:10px;
-}
-input{
-    width:100%;
-    padding: 10px;
-    
-}
-.button{
     background-color: black;
     color: white;
-    width:200px;
-    padding: 10px;
+    padding:10px;
 }
-.container3{
-    padding-top: 20px;
-
-}
-.container4{
-    background-color: black;
-    color:white;
-    text-align: center;
-    height: 50px;
-}
+.paras{
+      text-align: center;
+      padding: 20px;
+      background-color:rgb(149, 145, 145);
+      bottom: 0;
+      width: 100%;
+      padding:30px;
+      font-size: 20px;
+    }
